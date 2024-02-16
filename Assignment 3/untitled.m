@@ -1,2 +1,8 @@
 %% 
-Bisect(1,3,0.0010,20,@vLiquid)
+%% Q3 b
+%%diary on;
+fprintf("Q3B\n");
+Bisect(0,9,1e-4,20,@vLiquid);
+fprintf("Q3C\n");
+Bisect(0,1,1e-4,20,@Vsemi);
+%%diary off;

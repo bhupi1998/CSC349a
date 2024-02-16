@@ -2,7 +2,7 @@ function root =  Bisect(xl, xu, eps, imax, f)
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 i=1;
-fl=f(xl) 
+fl=f(xl); 
 fprintf( ' iteration approximation \n');
 while i<= imax
     xr=(xl+xu)/2;
