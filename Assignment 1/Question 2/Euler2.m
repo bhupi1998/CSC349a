@@ -1,4 +1,4 @@
-%   Question 1 a
+%   Question 2 a
 function Euler2(k,Ta,t0,T0,tn,h)
 %   print headings and initial conditions
 fprintf('values of t(min)    approximations T(t)\n')
@@ -12,6 +12,6 @@ T=T0;
 for i=1:n 
     T=T+-k*(T-Ta)*h;
     t=t+h;
-    fprintf('%8.3f',t), fprintf('%19.4f\n',T)
+    fprintf('%8.3f',t), fprintf('%19.8f\n',T)
 end
 
