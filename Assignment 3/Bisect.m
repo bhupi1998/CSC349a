@@ -7,7 +7,7 @@ fprintf( ' iteration approximation \n');
 while i<= imax
     xr=(xl+xu)/2;
     fprintf( ' %6.0f %18.8f \n', i, xr );
-    fr=f(xr); %% however function calls work in this thing
+    fr=f(xr); 
     if fr == 0 || (xu-xl)/(xu+xl)<eps
         root = xr;
         return;

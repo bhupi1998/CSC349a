@@ -1,6 +1,5 @@
 %% Q3 C Assignment 3 CSC 349A
 function volume = Vsemi(h)
-%VSEMI Summary of this function goes here
 %   Detailed explanation goes here
 L=10;
 r=1;
