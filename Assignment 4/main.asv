@@ -1,0 +1,15 @@
+
+
+%Q1b
+
+
+%fx
+function current = CircuitCurrent(t)
+    current = 9*exp(-t)*cos(2*pi*t);
+end
+
+%fx prime
+function dcurrent = dCircuitCurrent(t)
+    %differentiate using matlab
+    dcurrent = - 9*exp(-t)*cos(2*pi*t) - 18*pi*exp(-t)*sin(2*pi*t);
+end

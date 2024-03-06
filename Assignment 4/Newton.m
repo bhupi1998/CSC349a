@@ -12,6 +12,5 @@ function root = Newton(x0,e,imax,f,df) %df is f prime, e is epsilon
         x0=root;
     end
     fprintf(' failed to converge in %g interations\n', imax);
-            
 end
 
