@@ -1,0 +1,20 @@
+x=0:0.1:8;
+y=cos(x);
+L0x = (((x-2).*(x-6))/5).*0.5430; 
+L1x = (((x-1).*(x-6))/4).*0.4161; 
+L2x = (((x-1).*(x-2))/20).*0.9602;
+Px = L0x+L1x+L2x;
+
+%% 
+
+%% 
+
+hold on
+plot(1,0.5403,'*b');
+plot(2,-0.4161,'*b');
+plot(6,0.9602,'*b');
+plot(x,y);
+plot(x,y,x,Px);
+plot(x,y,x,Px,x,L0x,x,L1x,x,L2x);
+plot(x,y,'r',x,Px,'b',x,L0x,'y',x,L1x,'g',x,L2x,'c');
+hold off

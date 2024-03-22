@@ -1,0 +1,19 @@
+function HornerCalcs(x)
+    a0=-3;
+    a1=-7;
+    a2=-5;
+    a3=0;
+    a4=2;
+    a5=1;
+    b5=a5
+    b4=a4+b5*x
+    b3=a3+b4*x
+    b2=a2+b3*x
+    b1=a1+b2*x
+    b0=a0+b1*x
+    c5=b5;
+    c4=b4+c5*x;
+    c3=b3+c4*x;
+    c2=b2+c3*x;
+    c1=b1+c2*x
+end
